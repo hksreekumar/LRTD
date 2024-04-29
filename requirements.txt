@@ -2,3 +2,4 @@ numpy
 tensorly
 matplotlib
 scipy
+pysgpp

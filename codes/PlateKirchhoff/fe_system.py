@@ -7,7 +7,7 @@ All rights reserved.
 Author: Harikrishnan Sreekumar
 '''
 import numpy as np
-from .element_matrices import build_element_stiffness, build_element_mass
+from element_matrices import build_element_stiffness, build_element_mass
 
 class fe_data:
     '''Class holder for FE data'''
@@ -18,6 +18,7 @@ class fe_data:
         self.loadNode = None
         self.material = None
         self.bc = None
+        self.grid_shape = None
 
 def assemble_system(fe_data):
     '''Function to assemble the element matrices'''
