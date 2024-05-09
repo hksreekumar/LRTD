@@ -7,7 +7,7 @@ All rights reserved.
 Author: Harikrishnan Sreekumar
 '''
 import numpy as np
-from element_matrices import build_element_stiffness, build_element_mass
+from codes.PlateKirchhoff.element_matrices import build_element_stiffness, build_element_mass
 
 class fe_data:
     '''Class holder for FE data'''
