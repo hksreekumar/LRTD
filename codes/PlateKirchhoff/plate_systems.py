@@ -23,7 +23,7 @@ def plate_system_2param_XY(my_fe_data, param):
 
     return yFEM
 
-def plate_system_4param_XY(my_fe_data, param):
+def plate_system_5param_XY(my_fe_data, param):
     # arrange
     my_fe_data.material[:,0] = param[1] # Youngs modulus
     my_fe_data.material[:,1] = param[2] # Poisson's ratio
